@@ -16,7 +16,7 @@ from time import sleep
 
 sng = "sng"
 lg = "lg"
-version = "v2" + ' Full Version - DEVLOPER MODE'
+version = "v3" + ' Full Version - DEVLOPER MODE'
 
 print("Welcome to VBWORKS " + version + " (DEVELOPER MODE NOT FOR PUBLIC)")
 print("Copyright, (C) 2025 WEP Technoligies, commAn Tech (REGD: SD7Jf0 + UF9r)")
@@ -333,9 +333,11 @@ if ask_user_what == 'the database' and 'the database game' and 'thedatabase':
       + " options")
     attacked()
     ans = input("(1/2)")
-    if ans == 1:
+    if ans == "1":
         print("You became loyal to your teritory GAME ENDING : LOYAL ENDING")
-    #cntinue later
+    if ans == "2":
+        print('You have a few options!')
+        print(' NOTE : THIS IS BETA AND THERE IS NOTHING AFTER THIS.')
 
 # Copyright, (C) 2025 WEP Tech, commAn Tech 
 # Bug : VS Code is not importing Admin Game do I added it to the file and the whole admin feature is not working
